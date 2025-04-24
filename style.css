@@ -504,14 +504,14 @@ video.gallery-media {
 /* RESPONSIVENESS      */
 /* ======================== */
 
-/* Medium screens (Tablets, smaller laptops) */
+/* Medium screens (Tablets, bigger laptops) */
 @media screen and (max-width: 1400px) {
   #gallery {
-    padding: 5vh 10%;
+    padding: 0% 10%;
   }
 
   .details-container.color-container {
-     flex: 0 1 calc(50% - 1.34rem); /* 2 columns, adjust gap compensation */
+     flex: 0 1 calc(33.333%); /* 3 columns, adjust gap compensation */
      min-width: 280px;
   }
 
